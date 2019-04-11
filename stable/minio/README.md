@@ -95,6 +95,7 @@ The following table lists the configurable parameters of the Minio chart and the
 | `image.repository`         | Image repository                    | `minio/minio`                                           |
 | `image.tag`                | Minio image tag. Possible values listed [here](https://hub.docker.com/r/minio/minio/tags/).| `RELEASE.2019-03-13T21-59-47Z`|
 | `image.pullPolicy`         | Image pull policy                   | `IfNotPresent`                                          |
+| `securityContext` | Give the opportunity to set a security context | `{}` |
 | `mcImage.repository`       | Client image repository             | `minio/mc`                                              |
 | `mcImage.tag`              | mc image tag. Possible values listed [here](https://hub.docker.com/r/minio/mc/tags/).| `RELEASE.2019-03-13T21-05-06Z`|
 | `mcImage.pullPolicy`       | mc Image pull policy                | `IfNotPresent`                                          |
